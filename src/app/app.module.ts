@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { AllStoryComponent } from './all-story/all-story.component';
 import { PostComponent } from './post/post.component';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PostComponent } from './post/post.component';
     HomeComponent,
     FeaturedComponent,
     AllStoryComponent,
-    PostComponent
+    PostComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule
